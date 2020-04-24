@@ -23,7 +23,7 @@ Http.request = async (options = {}) => {
     contentType = 'application/json',
     cache = 'default',
     redirect = 'follow',
-    referrerPolicy = 'client',
+    referrerPolicy = 'no-referrer-when-downgrade',
     mode = 'cors'
   } = options;
 
